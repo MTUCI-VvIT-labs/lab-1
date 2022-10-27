@@ -30,7 +30,7 @@ make build && make run
 ```bash
 go build -o bin/main main.go && cd bin && ./main
 ```
-### Простой запуск программы, без сохранения бинарного фалйа
+### Простой запуск программы, без сохранения бинарного файла
 ```bash
 go run main.go
 ```

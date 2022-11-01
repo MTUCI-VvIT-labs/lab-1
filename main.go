@@ -7,6 +7,38 @@ import (
 )
 
 func main() {
+//	lab()
+	dz()
+}
+
+//func lab () {
+//	sides := []int{3, 2, 4, 7, 5, 12, 11, 13, 15, 16, 14, 14}
+//	sort.Sort(sort.Reverse(sort.IntSlice(sides)))
+//
+//	smax := 0
+//	for i := range sides {
+//		for j := i + 1; j < len(sides); j++ {
+//			for k := j + 1; k < len(sides); k++ {
+//				a := sides[i]
+//				b := sides[j]
+//				c := sides[k]
+//				if a + b > c && a + c > b && b + c > a {
+//					p := (a + b + c) / 2
+//					s := math.Sqrt(float64(p * (p - a) * (p - b) * (p - c)))
+//					if s > float64(smax) {
+//						smax = int(s)
+//					}
+//				}
+//			}
+//		}
+//	}
+//
+//	fmt.Println("Максимальная площадь треугольника: ", smax)
+//
+//}
+
+
+func dz {
 	a, b, c := getRatios()     // получаем коэффициенты
 	solveDiscriminant(a, b, c) // решаем дискриминант
 }
